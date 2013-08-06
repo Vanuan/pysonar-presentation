@@ -141,13 +141,13 @@ It seemed that it would just require a trivial implementation of the semantics f
 
 182 entry points
 
-* 148 with information collected
-* 34 without information
-  * 20 due to non-trivial code (tuple, dict.update, __call__, subscript, etc)
-  * 10 correctly
-  * 4 failed with "maximum recursion depth exceeded"
+* 149 with (some) information collected
+* 33 without information
+  * 13 due to non-trivial code (tuple, dict.update, __call__, subscript, etc)
+  * 14 correctly
+  * 6 failed with "maximum recursion depth exceeded"
 
-Running time: 2 minutes (with some modules skipped)
+Running time: 3 minutes (with some modules skipped)
 
 ---
 ### What's next
